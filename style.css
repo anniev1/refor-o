@@ -1,9 +1,43 @@
+body {
+background-color: palevioletred;
+display: flex;
+justify-content: center;
+align-content: center;
+align-items: center;
+height: 80vh;
+
+}
+
+#titulo{
+    
+    font-size: 300%;
+    text-align: center;
+
+}
+#botao{
+    display: block;
+    margin: 2px auto;
+}
+
+#descricao{
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
 div {
     width: 80%;
     max-width: 500px;
     margin: 60px auto;
-    background-color: #8db6bb;
+    background-color: #c78cac;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+#gif{
+    width: 15%;
+    displey: block;
+    
+
 }
